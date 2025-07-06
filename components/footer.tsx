@@ -53,8 +53,7 @@ export default function Footer() {
       {/* Legal */}
       <div className="max-w-7xl mx-auto px-6 pb-12">
         <div className="pt-8 border-t flex flex-col md:flex-row justify-between items-center text-sm text-slate-600 gap-y-4">
-          <div>© 2020. All Rights Reserved</div>
-          <div>Design by Orix Creative Agency</div>
+          <div>© 2025. All Rights Reserved</div>
         </div>
       </div>
     </footer>
