@@ -16,7 +16,7 @@ export default function HeroSection() {
     <div className="w-full px-8 py-8 pb-0 md:pb-8 pt-20 md:pt-0 relative bg-[#f8f7f1]">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 items-center min-h-screen relative md:gap-0">
         {/* Left Column */}
-        <div className={`h-1/2 flex flex-col justify-between transition-all duration-1000 ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-10"}`}>
+        <div className={`h-1/2 flex flex-col justify-between`}>
           <div className="space-y-2 md:space-y-4">
             <h1 className="text-6xl md:text-7xl font-bold text-slate-800 leading-tight">
               Hey There,
@@ -44,7 +44,7 @@ export default function HeroSection() {
 
         {/* middle column */}
         <div className={`w-full md:w-auto`}>
-          <div className={`relative md:absolute bottom-0 mx-auto transition-all duration-1000 delay-300 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
+          <div className={`relative md:absolute bottom-0 mx-auto`}>
             <div className="w-full md:w-[60%] overflow-hidden">
               <Image
                 src={ImageBg} // Provide a valid image source here
@@ -55,7 +55,7 @@ export default function HeroSection() {
         </div>
 
         {/* Right Column */}
-        <div className={`relative transition-all duration-1000 delay-300 hidden md:flex flex-col h-1/2 justify-between items-end ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-10"}`}>
+        <div className={`relative transition-all duration-1000 delay-300 hidden md:flex flex-col h-1/2 justify-between items-end`}>
           <div className=" text-right text-slate-700 text-lg leading-relaxed max-w-xs mt-5">
             I design beautifully simple things, And I love what I do.
           </div>

@@ -10,7 +10,7 @@ export default function ServicesSection() {
           {/* Services List */}
           <div className="space-y-6">
             <div className="space-y-4">
-              <Card className="p-6 bg-gray-50 shadow-sm hover:shadow-md transition-shadow">
+              <Card className="p-6 bg-gray-50 border">
                 <CardContent className="flex items-center space-x-4 p-0">
                   <div className="flex items-center justify-center w-12 h-12 rounded-full bg-[#DEA584] text-black">
                     <SiRust size={30} />
@@ -22,7 +22,7 @@ export default function ServicesSection() {
                 </CardContent>
               </Card>
 
-              <Card className="p-6 bg-gray-50 shadow-sm hover:shadow-md transition-shadow">
+              <Card className="p-6 bg-gray-50 border">
                 <CardContent className="flex items-center space-x-4 p-0">
                   <div className="flex items-center justify-center w-12 h-12 rounded-full bg-[#3178C6] text-white">
                     <SiTypescript size={24} />
@@ -34,7 +34,7 @@ export default function ServicesSection() {
                 </CardContent>
               </Card>
 
-              <Card className="p-6 bg-gray-50 shadow-sm hover:shadow-md transition-shadow">
+              <Card className="p-6 bg-gray-50 border">
                 <CardContent className="flex items-center space-x-4 p-0">
                   <div className="flex items-center justify-center w-12 h-12 rounded-full bg-[#3776AB] text-[#FFD43B]">
                     <SiPython size={28} />

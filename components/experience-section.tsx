@@ -53,7 +53,7 @@ export default function ExperienceSection() {
                         {experiences.map((exp, index) => (
                             <div key={index} className="mb-12 ml-8 relative">
                                 {/* Dot marker */}
-                                <div className="border-1 border-dashed border-slate-300 w-5 h-5 rounded-full p-1 bg-white shadow absolute -left-11">
+                                <div className="border-1 border-dashed border-slate-300 w-5 h-5 rounded-full p-1 bg-white absolute -left-11">
                                     <div
                                         className={`w-full h-full rounded-full ${exp.color}`}
                                     ></div>
